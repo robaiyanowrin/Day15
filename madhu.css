@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+h1{
+    font-size: 20px;
+    
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 8vh;
+    flex-direction: column-reverse;
+    gap: none;
+}
+#one{
+    height: 33%;
+    width: 100%;
+    background-color: rgb(11, 243, 170)
+}
+#two{
+    height: 33%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

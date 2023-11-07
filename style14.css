@@ -1,0 +1,53 @@
+section{
+    background-color: darkgray;
+    height: 600px;
+    width: 100%px;
+    padding:20px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px ;
+}
+#child1{
+    background-color: darkgoldenrod;
+    height: 90vh;
+    width: 90%;
+}
+#child2{
+    background-color: burlywood;
+    height: 90vh;
+    width: 90%;
+    background-color: rgb(243, 188, 115);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+#gchild1, #gchild2, #gchild3{
+    height: 300px;
+    width: 100%;
+}
+#gchild1{
+    background-color: rgb(202, 202, 235);
+}
+#gchild2{
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+#gchild3{
+    background-color: bisque;
+} 
+#ggchild1{
+    background-color: rgb(165, 226, 226);
+    height: 100%;
+    width: 100%;
+}
+#ggchild2{
+    background-color: darkkhaki;
+    height: 100%;
+    width: 100%;
+}
